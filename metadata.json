@@ -1,0 +1,5 @@
+{
+  "name": "Educaworld",
+  "description": "An educational consultancy platform for browsing and managing university information. Admins can perform CRUD operations on university data, while public users can search and view institution details.",
+  "requestFramePermissions": []
+}

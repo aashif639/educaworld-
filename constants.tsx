@@ -1,0 +1,65 @@
+
+import { Institution } from './types';
+
+export const INITIAL_INSTITUTIONS: Institution[] = [
+  {
+    id: '1',
+    name: 'Kathmandu University',
+    ranking: 1,
+    accreditation: 'UGC',
+    approval: 'Ministry of Education',
+    grade: 'A',
+    fee: 500000,
+    courses: ['Computer Science', 'Electrical Engineering', 'Pharmacy'],
+    location: 'Dhulikhel, Kavre',
+    hostel: { ac: true, nonAc: true, sheeter: 2 },
+    highestPlacement: 2500000,
+    averagePlacement: 800000,
+    internationalStudents: 50,
+    nepaliStudents: 5000,
+    description: 'A leading university in Nepal known for its research and innovation.',
+    images: ['https://picsum.photos/seed/ku1/800/600', 'https://picsum.photos/seed/ku2/800/600'],
+    videos: [],
+    pdfs: [{ name: 'Prospectus 2024', url: '#' }, { name: 'Fee Structure', url: '#' }]
+  },
+  {
+    id: '2',
+    name: 'Tribhuvan University',
+    ranking: 2,
+    accreditation: 'UGC',
+    approval: 'Ministry of Education',
+    grade: 'A',
+    fee: 300000,
+    courses: ['Civil Engineering', 'Medicine', 'Management', 'Humanities'],
+    location: 'Kirtipur, Kathmandu',
+    hostel: { ac: false, nonAc: true, sheeter: 4 },
+    highestPlacement: 2000000,
+    averagePlacement: 600000,
+    internationalStudents: 100,
+    nepaliStudents: 400000,
+    description: 'The oldest and largest university in Nepal.',
+    images: ['https://picsum.photos/seed/tu1/800/600'],
+    videos: [],
+    pdfs: [{ name: 'Annual Report', url: '#' }]
+  },
+  {
+    id: '3',
+    name: 'Pokhara University',
+    ranking: 3,
+    accreditation: 'UGC',
+    approval: 'Ministry of Education',
+    grade: 'B',
+    fee: 400000,
+    courses: ['BBA', 'BCA', 'Health Sciences'],
+    location: 'Pokhara, Kaski',
+    hostel: { ac: true, nonAc: true, sheeter: 2 },
+    highestPlacement: 1800000,
+    averagePlacement: 550000,
+    internationalStudents: 30,
+    nepaliStudents: 25000,
+    description: 'A university located in the beautiful city of Pokhara with a focus on management and health sciences.',
+    images: ['https://picsum.photos/seed/pu1/800/600', 'https://picsum.photos/seed/pu2/800/600'],
+    videos: [],
+    pdfs: [{ name: 'Course Catalog', url: '#' }]
+  }
+];
